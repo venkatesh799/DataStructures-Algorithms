@@ -1,4 +1,4 @@
-// calculating the absolute difference between the sums of its diagonals in a square // //matrix.
+// calculating the absolute difference between the sums of its diagonals in a square matrix.
 
 #include <stdio.h>
 #include <stdlib.h>
