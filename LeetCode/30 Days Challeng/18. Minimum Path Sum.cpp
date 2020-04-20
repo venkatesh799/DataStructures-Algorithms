@@ -33,14 +33,14 @@ public:
         vector<vector<int>> dp(row,vector<int>(col,0));
         dp[0][0] = grid[0][0];
         
-        //Filling 1st row
+        //Filling 1st col
         
         for(i=1;i<col;i++)
         {
             dp[0][i]=dp[0][i-1]+grid[0][i];
         }
         
-        //Filling 1st Col
+        //Filling 1st row
         
         for(j=1;j<row;j++)
         {
