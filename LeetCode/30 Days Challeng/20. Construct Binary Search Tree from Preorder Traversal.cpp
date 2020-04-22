@@ -45,11 +45,11 @@ public:
             }
             else
             {
-                struct TreeNode *p=root,*current;
+                struct TreeNode *p=root,*current;                                                                    
                 
                 while(p)
                 {
-                    current=p;
+                    current=p;                          //CURRENT NODE
                     if(preorder[i] > p->val)
                     {
                         p=p->right;
