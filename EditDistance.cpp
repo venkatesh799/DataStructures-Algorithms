@@ -9,7 +9,7 @@ int min(int x, int y, int z)
 	return min(min(x, y), z); 
 } 
 
-int editDistDP(string str1, string str2, int m, int n) 
+int EditDistDP(string str1, string str2, int m, int n) 
 { 
 	// Create a table to store results of subproblems 
 	int dp[m][n]; 
@@ -41,7 +41,7 @@ int editDistDP(string str1, string str2, int m, int n)
 		} 
 	} 
 
-	return dp[m][n]; 
+	return dp[m-1][n-1]; 
 } 
 
 // Driver program 
